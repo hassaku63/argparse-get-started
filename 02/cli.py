@@ -1,15 +1,15 @@
 import argparse
 
 def main():
-    """argparse tutorial 1
+    """argparse tutorial 2
 
     https://docs.python.org/ja/3/howto/argparse.html
-    00をargparseで書き直してみる
+    01をargparseで書き直してみる
     """
 
     # https://docs.python.org/ja/3/library/argparse.html#argumentparser-objects
     parser = argparse.ArgumentParser(
-        description="This is argparse tutorial - 01"
+        description="This is argparse tutorial - 02"
     )
 
     # 別の書き方（位置引数を使うバターン）
