@@ -57,7 +57,7 @@ def main():
         api_key=conf['api_key']
     )
 
-    # 戻り値はBacklog API V2の仕様に順序
+    # 戻り値はBacklog API V2の仕様に準拠
     # https://developer.nulab.com/ja/docs/backlog/api/2/get-wiki-page-list/
     wikis = backlog_list_wikis(
         client=backlog_client,
