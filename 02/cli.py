@@ -27,7 +27,7 @@ def main():
     args = parser.parse_args()
 
     # ロジック部分の処理
-    message = args.msg
+    message = args.message
     print(f'hello, {message.upper()}')
 
 
